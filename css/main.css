@@ -1,0 +1,56 @@
+body{
+	background-color: #E2E1D9;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #300000;
+}
+
+h1{
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: .1em;
+	letter-spacing: -1px;
+}
+
+h2{
+	font-size: 1.4em;
+	margin-left: 40px;
+	margin-right: 40px;
+	letter-spacing: -1.75px;
+}
+
+h3{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+p{
+	color: #700000;
+}
+
+p1{
+	margin-left: 40px;
+}
+
+p2{
+	/*why does this lose the default margin-top spacing used by <p> and <p1>?*/
+	font-style: italic;
+}
+
+h5{
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+
+/*  
+
+h1{
+ 	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+    */
