@@ -1,3 +1,4 @@
+* {margin:0;padding:0;box-sizing:border-box;}
 html { 
   background: url(../images/background7.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -9,7 +10,7 @@ body{
     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
     /* Gill Sans, Verdana; */
     color: #C4C8CC;
-    margin-left: 3em;
+
 }
 
 p{
@@ -72,17 +73,15 @@ details{
     color: white;
 }
 
-.menu, .menu a{
+nav a{
     height: 0px;
-    display: inline;
+    display: inline-block;
     border: none;
     color: white;
-    vertical-align: bottom;
     /*Why the hell does ONLY the contact link change size if i make the em > 1em, but all change if em <1 */
     font-size: 1em;
     text-decoration: none;
-    margin-right: 0em;
-    margin-left: 2em;
+    text-align:center;
 }
 
 .button, .button a{
