@@ -1,0 +1,192 @@
+html { 
+  background: url(../images/background7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    /* Gill Sans, Verdana; */
+    color: #C4C8CC;
+    margin-left: 3em;
+}
+
+p{
+    text-indent: 5em;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+ul{
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-right: 5em;
+    margin-left: 5em;
+    line-height: 2.5em;
+}
+
+h2{
+    font-size: 2em;
+    line-height: 1.25em;
+    margin-left: 2.5em;
+    margin-right: 5em;
+}
+
+footer{
+    text-align: center;
+}
+
+details{
+    margin-left: 5em;
+}
+
+
+#titletag {
+    text-indent: 0em;
+    height: 0px;
+    font-size: 1.25em;
+    border: none;
+    padding: 1em;
+    padding-top: 0em;
+    padding-left: 0em;
+    margin-left: -.75em;
+    letter-spacing: -.5px;
+    color: white;
+}
+
+#title, #title a{
+    text-decoration: none;
+    font-size: 1.5em;
+    height: 0px;
+    display: inline;
+    margin-right: 2em;
+    border: none;
+    margin-left: -.25em;
+    color: white;
+}
+
+.menu, .menu a{
+    height: 0px;
+    display: inline;
+    border: none;
+    color: white;
+    vertical-align: bottom;
+    /*Why the hell does ONLY the contact link change size if i make the em > 1em, but all change if em <1 */
+    font-size: 1em;
+    text-decoration: none;
+    margin-right: 0em;
+    margin-left: 2em;
+}
+
+.button, .button a{
+    text-decoration: none;
+    display: inline-table;
+    padding: .5em;
+    padding-top: .5em;
+    padding-bottom: 0em;
+    margin-bottom: 2.5em;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+section#buttons{
+    float: right;
+}
+
+
+section#intro{
+    width: 58em;
+    height: 1em;
+    margin-left: -5em;
+    font-size: 1.1em;
+    text-indent: 4em;
+    letter-spacing: 1.5px;
+    padding: 0em;
+    line-height: 1.25em;
+    border: none;
+    display: inline-table;
+    margin-bottom: -1em;
+}
+
+#pocketwatch{
+    /* really struggled getting this picture to appear in-line to the right of the intro text, is there a better way to do this? */
+    vertical-align: top;
+    display: inline-block;
+}
+
+#gears{
+    margin-top: 0em;
+    width: 18%;
+    height: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.quote{
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: -4em;
+    margin-right: 5em;
+    letter-spacing: 1.5px;
+}
+
+#menubar{
+/* might build this out to have the top menu float as you scroll down */
+}
+
+}
+section#projectsection div {
+    max-width:75em;
+    margin: 0 auto;
+}
+section#projectsection .projects {
+    border: .2em solid #fff;
+    border-radius: 0em;
+    margin:.5%;
+    min-height: 10em;
+    padding: 0em 0em 0em 0em;
+    text-align: center;
+    max-width: 25em;
+    display: inline-table;
+    /* without this margin-left I couldn't get these to center... how else do you do this? */
+    margin-left: 5em;
+}
+
+section#projectsection p{
+    text-indent: 0em;
+    text-align: center;
+}
+
+
+/*  
+
+h1{
+ 	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+    */
+
+    /*
+    font-family
+    font-size
+    font-weight
+    font-style
+
+    text-align
+    text-decoration
+    text-transform
+    */
