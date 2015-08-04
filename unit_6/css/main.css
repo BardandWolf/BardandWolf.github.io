@@ -1,0 +1,85 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+header{
+	margin: 1em auto;
+	width: 20%;
+}
+
+nav a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: black;
+	margin: 0 .5%;
+	width: 49%;
+	border: 2px solid black;
+	text-align: center;
+	min-width: 45px;
+}
+
+nav a:hover{
+	background: black;
+	color: white;
+}
+
+div#wordmark{
+	display: block;
+	border-bottom: 10px double black;
+	margin: 2em auto;
+	padding: 0em 0em;
+	/* what is a better way to prevent all this 'blank space' from appearing within the content itself after the last typed word. With the set width the content box is filled up to the full width with just empty space... */
+	max-width: 340px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+div#content{
+	width:900px;
+	margin: 0em auto;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+
+div.checkers div{
+	float: left;
+	width: 32.33%;
+	margin: 1px .5%;
+}
+
+div.checkers img{
+	display: block;
+	margin: 0 auto;
+}
+
+div.blogpost{
+	text-indent: 1.618em;
+	border: 1px solid black;
+	padding: 2em;
+	margin: 2em;
+}
+
+#post1 img{
+	float: right;
+	margin: 0 .5em;
+}
+
+#post2 img{
+	float: left;
+	margin: 0 .5em;
+}	
+
+footer{
+	text-align: center;
+}
+
+
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
