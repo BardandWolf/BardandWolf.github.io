@@ -1,0 +1,340 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+header{
+	background: white;
+}
+
+/* Default Values */
+
+nav a:hover{
+	background: black;
+	color: white;
+}
+
+nav{
+	margin: 1em auto;
+	width: 30%;
+}
+
+nav a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: black;
+	width: 19%;
+	margin: 0 .5%;
+	border: 2px solid black;
+	text-align: center;
+}
+
+div{
+	padding: 1.618em;
+}
+
+header img{
+	display: inline-block;
+	float: left;
+	margin-bottom: 0em;
+}
+
+h1{
+	line-height: 1.618em;
+}
+
+h1#another{
+	font-family: 'Poiret One', cursive;
+}
+
+
+h1#thought{
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+h1#machine{
+	font-family: 'Special Elite', cursive;
+	float: left;
+	min-width: 70%;
+	margin-bottom: 0em;
+}
+
+
+h1#thought, h1#machine{
+	padding-left: 12%;
+}
+
+h1#another{
+	padding-left: 18%;
+}
+
+div.horizontalline{
+	padding: 0em;
+	margin: 0em auto;
+	width: 80%;
+	border-bottom: 5px solid black;
+}
+
+h2{
+	color: white;
+	font-weight: 700;
+	font-family: 'Inconsolata', ;
+	width: 1080px;
+	margin: 1.618em auto;
+    font-size: 1.618em;
+    line-height: 1.618em;
+}
+
+h3{
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Inconsolata', ;
+}
+
+p{
+	color: white;
+	text-indent: 1.618em;
+	font-weight: 700;
+	font-family: 'Inconsolata', ;
+	width: 100%;
+	margin: 1.618em auto;
+    font-size: 1.618em;
+    line-height: 1.618em;
+}
+
+p a{
+	color: white;
+}
+
+p#blurb{
+	color: black;
+	font-family: 'Special Elite', cursive;
+	width: 70%;
+	font-size: 1em;
+	line-height: 1.618em;
+	margin: 1.618em auto;
+	text-indent: 0em;
+}
+
+div#thoughts p, div#thoughts h2, div#thoughts a, div#projects p, div#projects h2, div#projects a{
+	color: black;
+}
+
+div.project:hover{
+	background: gray;
+}
+
+div.project p{
+	width: 100%;
+	font-size: 1em;
+}
+
+footer{
+	margin: 1.618em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+}
+
+div.row1, div.row2{
+	padding: 0em;
+}
+
+
+@media screen and (min-width: 0px){
+	
+	div#intro, div#travels, div#about{
+		background: #3b3b3b;
+	}
+	body{
+		font-size: 8px;
+	}
+
+	nav{
+		width: 100%;
+	}
+
+	h1{
+		font-size: 5em;
+	}
+
+	header img{
+		max-width: 7.222em;
+		margin-top: -1.111em;
+	}
+
+	div.project{
+		float: left;
+		width: 99%;
+		margin: .5% .5%;
+		border: 2px solid black;
+}
+
+}
+
+@media screen and (min-width: 427px){
+	body, header{
+		font-size: 10px;
+	}
+
+	p{
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 515px){
+	body, header{
+		font-size: 10px;
+	}
+
+	nav{
+		width: 80%;
+	}
+	h1{
+	font-size: 7em;
+	}
+
+	header img{
+		max-width: 10.111em;
+		margin-top: -1.555em;
+	}
+}
+
+@media screen and (min-width: 660px){
+	body, header{
+		font-size: 11px;
+	}
+
+	nav{
+		width: 60%;
+	}
+
+	h1{
+	font-size: 9em;
+	}
+
+	header img{
+		max-width: 13em;
+		margin-top: -2em;
+	}
+
+	h1#thought, h1#machine{
+		padding-left: 6%;
+	}
+
+	h1#another{
+		padding-left: 12%;
+	}
+
+}
+
+/*768-1124*/
+@media screen and (min-width: 769px){
+	body, header{
+		font-size: 12px;
+	}
+	/*above 768px we switch to image based backgrounds (hopefully the user is not on a landscape iPad).
+	Future fix would be 1) javascript parallax on iOS or 2) detect if using iOS. Still would need to abandon images at some point though due to resolution */
+
+	div#intro{
+		background: url(../images/background1.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+	 	-moz-background-size: cover;
+	  	-o-background-size: cover;
+		background-size: cover;
+	}
+
+	div#travels{
+	background: url(../images/background2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	}
+
+	div#about{
+	background: url(../images/background3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	}
+
+	nav{
+		width: 40%;
+	}
+
+	h1#thought, h1#machine{
+		padding-left: 12%;
+	}
+
+	h1#another{
+		padding-left: 18%;
+	}
+
+	div.project{
+	width: 32%;
+	margin: .5% .5%;
+	border: 2px solid black;
+	}
+}
+
+@media screen and (min-width: 825px){
+
+	body, header{
+		font-size: 13px;
+	}
+
+	p{
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 900px){
+	body, header{
+	font-size: 14px;
+	}
+
+	p#blurb{
+		width: 40%;
+	}
+}
+
+
+@media screen and (min-width: 1125px){
+	body, header{
+	font-size: 16px;
+	}
+	nav{
+		width: 30%;
+	}
+
+}
+@media screen and (min-width: 1250px){
+	
+	h1#thought, h1#machine{
+		padding-left: 18%;
+	}
+
+	h1#another{
+		padding-left: 24%;
+	}
+}
+
+@media screen and (min-width: 1400px){
+
+	h1#thought, h1#machine{
+		padding-left: 24%;
+	}
+
+	h1#another{
+		padding-left:30%;
+	}
+
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
